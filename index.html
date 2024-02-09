@@ -4,12 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>jBIM Viewer</title>
-    <script type="module" crossorigin src="./assets/index-8a89ebd3.js"></script>
-    <link rel="stylesheet" href="./assets/index-fc9f2ccb.css">
+    <title>jBIMViewer</title>
+    <script type="module" crossorigin src="./assets/index-8f8a2349.js"></script>
+    <link rel="stylesheet" href="./assets/index-e5df6ca8.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="navbar">
+      <h1>jBIMViewer</h1>
+      <div id="buttons-container">
+        <button id="load-button">Load IFC</button>
+        <button id="samples-button">Sample IFC files</button>
+        <button id="selection-button" class="disabled">Selection</button>
+        <button id="properties-button" class="disabled">Properties</button>
+        <button id="filter-button" class="disabled">Filters</button>
+        <button id="floorplans-button" class="disabled">Floorplans</button>
+        <button id="measure-button" class="disabled">Measure</button>
+        <button id="clip-button" class="disabled">Clip</button>
+        <button id="ortho-button">Ortho</button>
+      </div>
+      <h2>about</h2>
+    </div>
+
+    <div id="viewer-container"></div>
     
   </body>
 </html>
