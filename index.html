@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>jBIMViewer</title>
+    <script type="module" crossorigin src="./assets/index-07965f7a.js"></script>
+    <link rel="stylesheet" href="./assets/index-fa2d6ab7.css">
+  </head>
+  <body>
+    <div id="navbar">
+      <h1>jBIMViewer</h1>
+      <div id="buttons-container">
+        <button id="load-button">Load IFC</button>
+        <button id="samples-button">Sample files</button>
+        <button id="floorplans-button" class="disabled">Floorplans</button>
+
+        <button id="filter-button" class="disabled">Filters</button>
+        <button id="properties-button" class="disabled">Properties</button>
+        <button id="selection-button" class="disabled">Select</button>
+        <button id="measure-button" class="disabled">Measure</button>
+        <button id="clip-button" class="disabled">Clip</button>
+        <button id="ortho-button">Ortho</button>
+      </div>
+    </div>
+
+    <div id="tooltip-container"></div>
+    <div id="loading-container"></div>
+    <div id="about-container">
+      <h2>
+        <a href="https://github.com/jul-ls" target="_blank">jul-ls</a>
+      </h2>
+    </div>
+
+    <div id="filters-container" style="display: none"></div>
+    <div id="props-container" style="display: none">Select an element!</div>
+    <div id="samples-container" style="display: none"></div>
+    <div id="floorplans-container" style="display: none"></div>
+
+    <div id="viewer-container"></div>
+
+    
+  </body>
+</html>
